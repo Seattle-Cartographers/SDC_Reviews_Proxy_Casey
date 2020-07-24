@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
+    "server:prod": "nodemon server/index.js",
     "start": "nodemon index.js",
     "build": "webpack --watch"
   },
@@ -14,6 +15,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy": "^1.18.1",
+    "nodemon": "^2.0.4",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
